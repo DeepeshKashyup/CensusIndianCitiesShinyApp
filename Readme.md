@@ -1,9 +1,7 @@
-
-
 # Exploratory Data Analysis Of Indian Cities
 
 The motivation of this project was just to learn and play with the grammer of Shiny, HighCharts and Leaflets.
-The Dataset , `cities_r2`, has data of 500 Cities with population more than 1 Lac by Census 2011
+The Dataset , `cities_r2.csv`, has data of 500 Cities with population more than 1 Lac by Census 2011
 
 'name_of_city'                  : Name of the City  
 'state_code'                    : State Code of the City    
@@ -28,3 +26,4 @@ The Dataset , `cities_r2`, has data of 500 Cities with population more than 1 La
 'male_graduates'                : Male Graduates     
 'female_graduates'              : Female Graduates     
 
+App Link [1]: https://deepesh.shinyapps.io/sdmapp/ "ShinyApp" 

@@ -3,6 +3,10 @@ body{
 background-color : #ecf0f5
 }
 
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 .navbar{
 width: 100%;
@@ -12,7 +16,10 @@ width: 100%;
     background: -webkit-linear-gradient(left,#00693c 0,#002d62 100%);
     background: -o-linear-gradient(left,#00693c 0,#002d62 100%);
     background: -ms-linear-gradient(left,#00693c 0,#002d62 100%);
-background: linear-gradient(to right,#00693c 0,#002d62 100%);}
+background: linear-gradient(to right,#00693c 0,#002d62 100%);
+    padding-right: 15px;
+    padding-left: 15px
+}
 
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -24,7 +31,10 @@ background: linear-gradient(to right,#00693c 0,#002d62 100%);}
    color: #fff;
    background-color: transparent;
 }
-
+.container-fluid  .tab-content:first-child{
+	padding-right: 15px;
+    padding-left: 15px;
+}
 .navbar-default .navbar-nav>li>a {
    color: #fff;
 }
