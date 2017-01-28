@@ -77,7 +77,7 @@ fluidPage(theme ='styles.css',
                                          h3(" Columns in the Dataset"),
                                          includeHTML("include.html")
                                  ),
-                                 mainPanel( h3("Dataset Description"),includeHTML("include1.html")))
+                                 mainPanel( h3("Dataset Description"),includeHTML("include1.html"),p(),p(),div(h5("View Code and Contribute"),a(href="https://github.com/DeepeshKashyup/CensusIndianCitiesShinyApp","Click here!!"))))
                                  
                             ),
                    tabPanel(title="Maps", sidebarLayout(
